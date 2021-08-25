@@ -1,0 +1,82 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 5 key-value pairs.
+Below are 5 of them:
+ 1 key:            Ford_mustang_09.jpg  label: ford mustang
+ 2 key:               Cat_14843245.jpg  label: cat
+ 3 key:                Poodle_3251.jpg  label: poodle
+ 4 key:                     Dog_02.jpg  label: dog
+ 5 key:                     Dog_01.jpg  label: dog
+
+     MATCH:
+
+               Poodle_3251.jpg: 
+Real:                     poodle   Classifier:        standard poodle, poodle
+
+ NOT A MATCH:
+
+           Ford_mustang_09.jpg: 
+Real:               ford mustang   Classifier:          sports car, sport car
+
+              Cat_14843245.jpg: 
+Real:                        cat   Classifier:       bow tie, bow-tie, bowtie
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
+
+     MATCH:
+
+               Poodle_3251.jpg: 
+Real:                     poodle   Classifier:        standard poodle, poodle  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+           Ford_mustang_09.jpg: 
+Real:               ford mustang   Classifier:          sports car, sport car  
+PetLabelDog: 0  ClassLabelDog: 0
+
+              Cat_14843245.jpg: 
+Real:                        cat   Classifier:       bow tie, bow-tie, bowtie  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  5  N Dog Images:  3  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  33.3
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  5  N Dog Images:  3  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  33.3
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+Number Images       :   5
+Nunmber of Dog Images:   3
+Number of Not-Dog Images:   2
+ 
+pct_match           : 20.0
+pct_correct_dogs    : 100.0
+pct_correct_breed   : 33.33333333333333
+pct_correct_notdogs : 100.0
+
+INCORRECT Dog Breed Assignment:
+
+** Total Elapsed Runtime: 0:0:0
