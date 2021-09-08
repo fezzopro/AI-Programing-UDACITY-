@@ -14,7 +14,9 @@ dist/
 downloads/
 eggs/
 .eggs/
+bin/
 lib/
+lib64
 lib64/
 parts/
 sdist/
@@ -83,6 +85,8 @@ ipython_config.py
 
 # pyenv
 .python-version
+pyenv
+pyvenv.cfg
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
