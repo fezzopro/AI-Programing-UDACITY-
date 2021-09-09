@@ -343,16 +343,4 @@ dependencies:
   - zope.event=4.5.0=py38_0
   - zope.interface=5.3.0=py38h27cfd23_0
   - zstd=1.4.5=h9ceee32_0
-  - pip:
-    - asgiref==3.4.1
-    - fastapi==0.68.1
-    - h11==0.12.0
-    - matplotlib==3.4.2
-    - multitasking==0.0.9
-    - pip==21.2.4
-    - pydantic==1.8.2
-    - starlette==0.14.2
-    - uvicorn==0.15.0
-    - wordcloud==1.8.1
-    - yfinance==0.1.63
-prefix: /home/felix/anaconda3
+
